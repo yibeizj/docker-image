@@ -1,0 +1,2 @@
+FROM nginx:1.18.0
+MAINTAINER Zhanghui.H <h4672839@163.com>
