@@ -9,5 +9,6 @@ ENV MAVEN_HOME /usr/local/apache-maven-3.0.5
 ENV NODE_HOME /usr/local/node-v12.14.1-linux-x64
 ENV PATH $MAVEN_HOME/bin:$NODE_HOME/bin:$PATH
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org && \
+    npm install -g yarn --registry=https://registry.npm.taobao.org && \
     git config --global log.abbrevcommit yes && \
     git config --global core.abbrev 8
