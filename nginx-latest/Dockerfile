@@ -1,2 +1,2 @@
-FROM nginx
+FROM docker.io/nginx
 MAINTAINER Zhanghui.H <h4672839@163.com>
