@@ -1,1 +1,1 @@
-FROM amazon/opendistro-for-elasticsearch-kibana:0.8.1
+FROM amazon/opendistro-for-elasticsearch-kibana:1.1.0
