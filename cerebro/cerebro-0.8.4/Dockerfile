@@ -1,1 +1,1 @@
-FROM stable/cerebro
+FROM lmenezes/cerebro:0.8.4
