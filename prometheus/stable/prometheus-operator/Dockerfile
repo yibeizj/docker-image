@@ -1,0 +1,1 @@
+FROM stable/prometheus-operator:8.13.8
