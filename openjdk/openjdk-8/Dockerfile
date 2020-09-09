@@ -9,8 +9,8 @@ ADD 1.emf /home
 
 #RUN gm -version
 #RUN identify -version
-RUN convert -version
-RUN convert /home/1.emf  /home/1.png
+RUN magick -version
+RUN magick convert /home/1.emf  /home/1.png
 #RUN find / -name magick
 #RUN gm convert /home/1.emf  /home/1.png
 #RUN ls -l /home
