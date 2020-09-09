@@ -3,7 +3,7 @@ FROM openjdk:8
 # 新增graphicsmagick工具
 #RUN apt-get update && apt-get install -y graphicsmagick-dbg &&  apt-get install -y ghostscript-dbg &&  apt-get install -y imagemagick && apt-get install -y graphicsmagick-imagemagick-compat
 #RUN  apt-get update && apt-get install -y imagemagick && apt-get install -y graphicsmagick-imagemagick-compat && uname -a
-RUN apt-get update && apt-get install sam2p -y
+RUN apt-get update && apt-get install graphics -y
 
 ADD 1.emf /home
 
