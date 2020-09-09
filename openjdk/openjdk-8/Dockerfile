@@ -4,7 +4,12 @@ FROM openjdk:8
 RUN mkdir -p /usr/src/magick \
     && cd /usr/src/magick && wget https://www.imagemagick.org/download/ImageMagick.tar.gz \
     && tar -xvf ImageMagick.tar.gz \
-    && pwd && ls -l
+    && cd ImageMagick-7.0.10-29 \
+    && ./configure \
+    && make \
+    && make install \
+    && ldconfig /usr/local/lib \
+    && magick -version
 
 #ADD 1.emf /home
 
