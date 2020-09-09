@@ -4,7 +4,9 @@ FROM openjdk:8
 RUN apt-get update && apt-get install -y graphicsmagick-dbg &&  apt-get install -y ghostscript-dbg &&  apt-get install -y imagemagick
 #ADD 1.emf /home
 
-RUN gm -version && magick -version
+RUN gm -version
+RUN identify -version
+RUN magick -version
 #RUN gm convert /home/1.emf  /home/1.png
 #RUN ls -l /home
 #ImageMagick
