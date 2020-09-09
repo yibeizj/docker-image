@@ -4,6 +4,7 @@ FROM openjdk:8
 ADD 1.emf /home
 RUN apt update \
     && apt-get install build-essential -y \
+    && apt-get install libjpeg libjpeg-devel libpng libpng-devel libemf libemf-devel\
     && mkdir -p /usr/src/magick \
     && cd /usr/src/magick && wget https://www.imagemagick.org/download/ImageMagick.tar.gz \
     && tar -xvf ImageMagick.tar.gz \
