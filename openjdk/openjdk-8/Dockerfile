@@ -14,7 +14,7 @@ RUN apt update \
     && make install \
     && ldconfig /usr/local/lib \
     && magick -version \
-    && magick convert  /home/1.emf  /home/1.png
+    && identify -list format
 
 
 
