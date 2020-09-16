@@ -1,1 +1,1 @@
-FROM tiller:v3.3.1
+FROM tiller:3.3.1
