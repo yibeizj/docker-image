@@ -1,1 +1,1 @@
-FROM tiller:3.3.1
+FROM fishead/gcr.io.kubernetes-helm.tiller:v3.3.1
