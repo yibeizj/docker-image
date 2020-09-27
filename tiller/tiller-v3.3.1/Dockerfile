@@ -1,1 +1,0 @@
-FROM fishead/gcr.io.kubernetes-helm.tiller:v3.3.1
