@@ -1,1 +1,1 @@
-FROM fredboat/sentinel
+FROM fredboat/sentinel:v0
