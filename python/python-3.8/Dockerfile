@@ -1,3 +1,3 @@
 FROM python:3.8
 ADD . /app
-RUN pip install -r /app/requirements.txt
+RUN sudo apt update && apt install libgl1-mesa-glx && pip install -r /app/requirements.txt
