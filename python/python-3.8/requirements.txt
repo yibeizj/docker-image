@@ -5,3 +5,13 @@ pandas==1.0.5
 scikit_learn==0.23.2
 Werkzeug==1.0.1
 paddleocr==1.0.1
+shapely
+imgaug
+pyclipper
+paddlepaddle
+paddlehub
+lmdb
+tqdm
+numpy
+requests
+opencv-python
