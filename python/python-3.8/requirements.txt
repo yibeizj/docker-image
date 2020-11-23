@@ -12,6 +12,5 @@ paddlepaddle
 paddlehub
 lmdb
 tqdm
-numpy
 requests
 opencv-python
