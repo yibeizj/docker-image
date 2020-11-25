@@ -1,0 +1,1 @@
+FROM apache/skywalking-ui:8.2.0
