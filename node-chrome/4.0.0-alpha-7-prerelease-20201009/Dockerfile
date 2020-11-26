@@ -1,0 +1,1 @@
+FROM selenium/node-chrome:4.0.0-alpha-7-prerelease-20201009
