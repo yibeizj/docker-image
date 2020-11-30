@@ -1,0 +1,1 @@
+FROM kubespheredev/ks-installer:latest
