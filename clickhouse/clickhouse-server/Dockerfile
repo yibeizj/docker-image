@@ -1,1 +1,1 @@
-FROM yandex/clickhouse-server:latest
+FROM yandex/clickhouse-server
