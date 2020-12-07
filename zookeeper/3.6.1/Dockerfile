@@ -1,0 +1,1 @@
+FROM docker.io/zookeeper:3.6.1
