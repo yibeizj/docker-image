@@ -1,0 +1,10 @@
+transformers==2.1.1
+Flask_APScheduler==1.11.0
+numpy==1.19.3
+Flask==1.1.2
+torch==1.7.0
+lshashpy3==0.0.8
+PyMySQL==0.10.1
+sshtunnel==0.3.1
+nacos_sdk_python==0.1.5
+PyYAML==5.3.1
