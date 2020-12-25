@@ -1,0 +1,1 @@
+FROM registry.gitlab.com/frenchtoasters/zabbix-operator/zabbix-operator:v0.1.1
