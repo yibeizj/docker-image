@@ -1,0 +1,1 @@
+FROM gitlab/gitlab-ce:11.5.11-ce.0
