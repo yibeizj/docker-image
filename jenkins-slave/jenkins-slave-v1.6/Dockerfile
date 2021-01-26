@@ -21,7 +21,8 @@ ENV PATH $MAVEN_HOME/bin:$NODE_HOME/bin:$ALLURE_HOME/bin:$SONAR_RUNNER_HOME/bin:
 #    allure --version  &&  \
 #    mvn --version && \
 #    sonar-scanner --version && \
-RUN apt-get install build-essential \
+RUN apt-get update && \
+    apt-get install build-essential \
     libncurses5-dev libncursesw5-dev libreadline6-dev \
     libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev \
     libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev \
