@@ -24,4 +24,4 @@ RUN npm config set registry https://registry.npm.taobao.org && \
     cd /usr/local/src/python-3.8.6 && ./configure --prefix=/usr/local/python3 --with-ssl && make && make install && \
     ln -s /usr/local/python3/bin/python3.8  /usr/bin/python3 && \
     ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3 && \
-    python --version
+    python3 --version
