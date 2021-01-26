@@ -31,5 +31,5 @@ RUN ls -l /usr/local/python3/bin/ && \
     allure --version  &&  \
     mvn --version && \
     sonar-scanner --version && \
-    python3.8 --version && \
+    python3.8 -V && \
     pip3 --version
