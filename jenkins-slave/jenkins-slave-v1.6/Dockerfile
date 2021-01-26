@@ -19,7 +19,7 @@ RUN ln -sv /usr/local/src/sonar-scanner-4.2.0.1873-linux /usr/local/sonnar-scann
     libssl-dev openssl  libffi-dev -y && \
     cd /usr/local/src/Python-3.8.6 && ./configure --prefix=/usr/local/python3 --with-ssl && make && make install
 ENV PYTHON3_HOME /usr/local/python3
-ENV SONAR_RUNNER_HOME /usr/local/sonar-scanner
+ENV SONAR_RUNNER_HOME /usr/local/sonnar-scanner
 ENV PATH $MAVEN_HOME/bin:$NODE_HOME/bin:$ALLURE_HOME/bin:$SONAR_RUNNER_HOME/bin:$PYTHON3_HOME/bin:$PATH
 RUN pip3 install -r /usr/local/src/requirements.txt && \
     npm config set registry https://registry.npm.taobao.org && \
