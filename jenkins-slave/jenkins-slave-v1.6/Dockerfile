@@ -19,5 +19,5 @@ RUN npm config set registry https://registry.npm.taobao.org && \
     git config --global core.abbrev 8  && \
     allure --version  &&  \
     mvn --version && \
-    sonar-scanner --version && \
+    sonar-scanner --version
 #    python --version
