@@ -1,0 +1,13 @@
+certifi==2020.12.5
+chardet==4.0.0
+configparser==5.0.1
+DingtalkChatbot==1.5.2
+idna==2.10
+json262==0.2.0
+jsonpath==0.82
+multi-key-dict==2.0.3
+pbr==5.5.1
+python-jenkins==1.7.0
+requests==2.25.1
+six==1.15.0
+urllib3==1.26.2
