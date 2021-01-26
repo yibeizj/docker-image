@@ -8,7 +8,6 @@ ADD apache-maven-3.0.5-bin.tar.gz    \
     allure-commandline-2.13.5.tar.gz \
     sonar-scanner-4.2.0.1873-linux.tar.gz /usr/local/
 ADD python-3.8.6.tar.gz  /usr/local/src/
-RUN ls -l /usr/local/src/
 ENV MAVEN_HOME /usr/local/apache-maven-3.0.5
 ENV NODE_HOME /usr/local/node-v12.14.1-linux-x64
 ENV ALLURE_HOME /usr/local/allure-2.13.5
