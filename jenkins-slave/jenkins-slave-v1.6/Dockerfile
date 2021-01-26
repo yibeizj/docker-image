@@ -26,9 +26,9 @@ RUN pip3 install -r /usr/local/src/requirements.txt && \
     npm install -g cnpm &&  \
     npm install -g yarn &&  \
     git config --global log.abbrevcommit yes && \
-    git config --global core.abbrev 8 && \
+    git config --global core.abbrev 8
 #    allure --version  &&  \
 #    mvn --version && \
-    sonar-scanner --version
+#    sonar-scanner --version
 #    python3 -V && \
 #    pip3 --version
