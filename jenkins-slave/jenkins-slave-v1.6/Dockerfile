@@ -21,13 +21,13 @@ ENV PATH $MAVEN_HOME/bin:$NODE_HOME/bin:$ALLURE_HOME/bin:$SONAR_RUNNER_HOME/bin:
 #    allure --version  &&  \
 #    mvn --version && \
 #    sonar-scanner --version && \
-RUN apt-get update && \
-    apt-get install build-essential \
-    libncurses5-dev libncursesw5-dev libreadline6-dev \
-    libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev \
-    libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev \
-    libssl-dev openssl -y && \
-    cd /usr/local/src/Python-3.8.6 && ./configure --prefix=/usr/local/python3 --with-ssl && make && make install && \
-    ln -s /usr/local/python3/bin/python3.8  /usr/bin/python3 && \
-    ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3 && \
-    python3 --version
+#RUN apt-get update && \
+#    apt-get install build-essential \
+#    libncurses5-dev libncursesw5-dev libreadline6-dev \
+#    libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev \
+#    libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev \
+#    libssl-dev openssl -y && \
+#    cd /usr/local/src/Python-3.8.6 && ./configure --prefix=/usr/local/python3 --with-ssl && make && make install && \
+#    ln -s /usr/local/python3/bin/python3.8  /usr/bin/python3 && \
+#    ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3 && \
+RUN   python3 --version
