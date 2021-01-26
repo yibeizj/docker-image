@@ -17,7 +17,7 @@ RUN apt-get update && \
     libncurses5-dev libncursesw5-dev libreadline6-dev \
     libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev \
     libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev \
-    libssl-dev openssl -y && \
+    libssl-dev openssl  libffi-dev -y && \
     cd /usr/local/src/Python-3.8.6 && ./configure --prefix=/usr/local/python3 --with-ssl && make && make install
 ENV PYTHON3_HOME /usr/local/python3
 ENV PATH $MAVEN_HOME/bin:$NODE_HOME/bin:$ALLURE_HOME/bin:$SONAR_RUNNER_HOME/bin:$PYTHON3_HOME/bin:$PATH
