@@ -21,8 +21,7 @@ RUN apt-get update && \
     cd /usr/local/src/Python-3.8.6 && ./configure --prefix=/usr/local/python3 --with-ssl && make && make install
 ENV PYTHON3_HOME /usr/local/python3
 ENV PATH $MAVEN_HOME/bin:$NODE_HOME/bin:$ALLURE_HOME/bin:$SONAR_RUNNER_HOME/bin:$PYTHON3_HOME/bin:$PATH
-RUN ls -l /usr/local/python3/bin/ && \
-    pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple  -r /usr/local/src/requirements.txt && \
+RUN pip3 install -r /usr/local/src/requirements.txt && \
     npm config set registry https://registry.npm.taobao.org && \
     npm install -g cnpm &&  \
     npm install -g yarn &&  \
@@ -31,5 +30,5 @@ RUN ls -l /usr/local/python3/bin/ && \
     allure --version  &&  \
     mvn --version && \
     sonar-scanner --version && \
-    python3.8 -V && \
+    python3 -V && \
     pip3 --version
