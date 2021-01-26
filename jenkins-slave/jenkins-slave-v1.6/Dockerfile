@@ -14,5 +14,4 @@ RUN npm config set registry https://registry.npm.taobao.org && \
     npm install -g cnpm &&  \
     npm install -g yarn &&  \
     git config --global log.abbrevcommit yes && \
-    git config --global core.abbrev 8  && \
-    allure --version
+    git config --global core.abbrev 8
