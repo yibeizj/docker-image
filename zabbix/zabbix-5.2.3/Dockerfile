@@ -1,1 +1,2 @@
-FROM zabbix/zabbix-server-mysql:5.2.3
+FROM zabbix/zabbix-server-mysql:centos-5.2.3
+RUN yum install python -y && python --version
