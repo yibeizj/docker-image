@@ -1,0 +1,1 @@
+FROM zabbix/zabbix-server-mysql:5.2.3
