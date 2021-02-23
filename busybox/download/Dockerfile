@@ -1,5 +1,5 @@
 FROM busybox:latest
 WORKDIR /app
-RUN wget -O wkhtmltox-0.12.6-1.centos7.x86_64.rpm https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox-0.12.6-1.centos7.x86_64.rpm
+RUN wget -O wkhtmltox-0.12.1_linux-wheezy-amd64.deb https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-wheezy-amd64.deb
 
 # docker run -itd --name=busybox-downloadfile registry.cn-beijing.aliyuncs.com/huazhanghui/busybox:1.0
