@@ -2,7 +2,7 @@ FROM python:3.8
 ADD zbar_0.23.90.orig.tar.gz /app
 RUN apt update -y \
     && apt install libgl1-mesa-glx wkhtmltopdf -y \
-    && ls -l /app
+    && ls -l /app \
     && cd /app/zbar-0.23.90 \
     && ./configure  --without-qt \
     && make \
