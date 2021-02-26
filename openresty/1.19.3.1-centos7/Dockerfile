@@ -1,0 +1,1 @@
+FROM openresty/openresty:1.19.3.1-centos7
