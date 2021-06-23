@@ -1,9 +1,9 @@
 [Mysql]
-Db = "Yearning"
-Host = "127.0.0.1"
-Port = "3306"
-Password = "xxxxxx"
-User = "root"
+Db = "yearning"
+Host = "172.17.180.104"
+Port = "3307"
+Password = "yearning"
+User = "yearning"
 
 [General]
 SecretKey = "dbcjqheupqjsuwsm"
