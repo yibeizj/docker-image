@@ -1,1 +1,1 @@
-FROM rancher/server:stable
+FROM rancher/rancher:stable
