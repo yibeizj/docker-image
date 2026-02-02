@@ -1,1 +1,1 @@
-FROM rancher/rancher:v2.8.10
+FROM rancher/rancher:v2.9-023781e52103c45a9bbdf3cb47d60b9336321daa-head-amd64
